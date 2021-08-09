@@ -1,4 +1,21 @@
 .icon-message {
-  height: 200px;
+  height: 300px;
   background-color: brown;
+  display: flex;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.icon-message .image img{
+  height:250px;
+}
+
+.icon-message .title-message{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icon-message .title{
+  margin-bottom: 20px;
+  font-size: 20px;
 }

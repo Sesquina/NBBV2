@@ -9,8 +9,16 @@ function IconMessage(props) {
 
     return (
         <div className="icon-message">
-            <div className="title">{message.title}</div>
-            <div className="message">{message.message}</div>
+            <div className="title-message">
+                <div className="title">{message.title}</div>
+                <div className="message">{message.message}</div>
+
+            </div>
+
+            <div className="image">
+                <img src={`/images/${message.image}`} alt="" srcset="" />
+            </div>
+
         </div>
 
     )

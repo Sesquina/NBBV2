@@ -2,7 +2,7 @@ import "../Styles/main.css";
 import Header from "./Header";
 import WhoWeAre from "../Components/WhoWeAre";
 import WhatWeCanDo from "../Components/WhatWeCanDo.jsx";
-import DedicatedTeam from "../Components/DedicatedTeam.jsx";
+// import DedicatedTeam from "../Components/DedicatedTeam.jsx";
 import { useState } from "react";
 
 function Main() {
@@ -24,7 +24,7 @@ function Main() {
   
       {currentSectionIndex === 0 && <WhoWeAre />}
       {currentSectionIndex === 1 && <WhatWeCanDo />}
-      {currentSectionIndex === 2 && <DedicatedTeam />}
+      {/* {currentSectionIndex === 2 && <DedicatedTeam />} */}
     </div>
   );
 }
