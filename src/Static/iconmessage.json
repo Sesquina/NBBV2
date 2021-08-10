@@ -1,27 +1,33 @@
 {
     "rings": {
       "image": "maritaltransitions.png",
-        "title" : "Passing Wealth To The Next Generation",
-        "message":"We'll work with you on legacy planning, an dcan help you build an in-depth wealth strategy that we regularly update with you"
+        "title" : "Marital Transitions",
+        "message":"With your goals in mind we can help you build your in-depth wealth strategy  and regularly update it with you"
+    },
+    "family": {
+      "image": "wealth.png",
+        "title" : "Passing wealth to the next generation",
+        "message":"We'll work with you on legacy planning, and can help you build an in-depth wealth strategy that we regularly update with you"
     },
     "sudden": {
-      "image": "wealth.png",
+      "image": "windfall.png",
         "title" : "Navigating Sudden Wealth",
-        "message":" Hello World"
+        "message":"With your new circumstances and goals in mind, we can help you build your in-depth wealth strategy and regularly update it with you"     },
+
+    "retire": {
+      "image": "retirement.png",
+        "title" : "Building a financially secure life in retirement",
+        "message":"With your goals in mind, we can help you build your in-depth wealth strategy and regularly update it with you."
     },
-    "Nonprofit": {
-      "image": "rings",
-        "title" : "",
-        "message":" Hello World"
+    "nonprofit": {
+      "image": "nonprofits.png",
+        "title" : "Helping Nonprofits meet their missions",
+        "message":"We'll share best practices with your nonprofit from across our client base"
     },
-    "Executive": {
-      "image": "rings",
-        "title" : "",
-        "message":" Hello World"
-    },
-    "Legacy": {
-      "image": "rings",
-        "title" : "",
-        "message":" Hello World"
+    "executivecomplex": {
+      "image": "executive.png",
+        "title" : "Managing the complexities of Executive compensation",
+        "message":"With your goals in mind, we can help you build your in-depth wealth strategy and regularly update you"
     }
   }
+

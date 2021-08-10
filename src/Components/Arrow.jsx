@@ -10,6 +10,7 @@ import { GoArrowRight } from "react-icons/go";
 
 function Arrow(props) {
     const handleClick = (messageKey) => () => props.setSelectedIcon(messageKey);
+   
     return (
         <div className="icon-arrow">
             <div className="arrow">
@@ -20,11 +21,11 @@ function Arrow(props) {
             </div>
             <div className="icons">
                 <GiLinkedRings onClick={handleClick("rings")} />
-                <BsFillPeopleFill onClick={handleClick("sudden")} />
-                <FaMoneyCheckAlt />
-                <GiPalmTree />
-                <FaDonate />
-                <FaStore />
+                <BsFillPeopleFill onClick={handleClick("family")} />
+                <FaMoneyCheckAlt onClick={handleClick("sudden")}/>
+                <GiPalmTree onClick={handleClick("retire")}/>
+                <FaDonate onClick={handleClick("nonprofit")}/>
+                <FaStore onClick={handleClick("executivecomplex")}/>
 
 
             </div>

@@ -1,0 +1,110 @@
+div {
+  --margin-left: 10vw;
+}
+
+.page-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  top: 66vh;
+  height: 50vh;
+  width: 100vw;
+  margin-top: 5;
+}
+
+.page-text {
+  position: relative;
+  top: 1vh;
+  right: -22vw;
+  color: #002b49;
+  font-size: 21px;
+  justify-content: center;
+}
+
+.industry-standard-timeline-box {
+  background: blue;
+  width: 6vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 6vh;
+  left: 5vw;
+}
+
+.timeline-label {
+  color: white;
+  font-size: 4vmin;
+  padding: 2vw;
+  font-weight: 600;
+}
+
+.timeline-title {
+  color: black;
+  position: absolute;
+  top: 24vh;
+  font-size: 20px;
+  padding: -1vw;
+  height: 2vh;
+  left: 16vw;
+}
+
+.cg-standard-timeline-box {
+  background: grey;
+  width: 6vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+}
+
+.cg-standard-timeline-three {
+  background: cadetblue;
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 6vh;
+  left: 16vw;
+}
+
+.cg-standard-timeline-five {
+  background: navy;
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 6vh;
+  left: 40vw;
+}
+.cg-standard-timeline-eight {
+  background: lightblue;
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 6vh;
+  left: 62vw;
+}
+
+.cg-timeline-title {
+  color: black;
+  width: 96vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 6vh;
+  font-size: 20px;
+}

@@ -1,6 +1,6 @@
 import "../Styles/whatwecando.css";
 import { useState } from "react";
-import ApexChart from "./ApexChart";
+import Chart from "./Chart";
 import IconMessage from "./IconMessage";
 import Arrow from "./Arrow";
 
@@ -15,7 +15,7 @@ const [selectedIcon, setSelectedIcon]= useState("rings")
       selectedIcon= {selectedIcon}/> 
       <Arrow 
       setSelectedIcon={setSelectedIcon}/>
-      <ApexChart />
+      <Chart />
     </div>
   );
 }

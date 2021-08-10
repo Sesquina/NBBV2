@@ -1,0 +1,68 @@
+.page-container {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    top: 0vh;
+    height: 40vh;
+    width: 100vw;
+    border: 5px solid limegreen;}
+
+
+   
+.page-text {
+    position: relative;
+    bottom: -6px;
+    right: -38vw;
+    color: forestgreen;
+    font-size: 20px;
+    justify-content: center;
+   }
+
+   .industry-standard-timeline-box {
+    background: blue;
+    width: 6vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 4vh;
+    left: 5vw;
+}
+
+.cg-standard-timeline-box {
+    background: blue;
+    width: 6vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 18vh;
+    left: 5vw;
+}
+
+
+.cg-standard-timeline-three {
+    background: cadetblue;
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 4vh;
+    left: 16vw;
+}
+
+.cg-standard-timeline-five {
+    background: navy;
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 4vh;
+    left: 40vw;
+}
